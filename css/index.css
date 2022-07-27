@@ -4,6 +4,7 @@ body {
     background: url(/images/backcover.svg)no-repeat;
     background-size: 45%;
     background-position: right top;
+    overflow: hidden;
 }
 
 
