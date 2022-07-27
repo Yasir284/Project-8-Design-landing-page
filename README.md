@@ -1,10 +1,8 @@
-# Project-8: Design Landing page
-
 ![badge](https://img.shields.io/badge/MADE%20WITH-HTML%20%26%20CSS-blue)
 ![badge](https://img.shields.io/badge/TIME%20TAKEN-3--4hrs-red)
 [![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://project8-27722.netlify.app/)
 
-# Project 7 - Product landing page
+# Project-8: Design Landing page
 
 - This project is a Design landing page.This website is designed using pure HTML and CSS.
 
