@@ -22,13 +22,15 @@
 
 ## Screenshot
 
-![App Screenshot](./images/project8-image.png)
+![Screenshot](./images/project8-image.png)
+
+![mobile version screenshot](./images/project-8-mobilevs.png)
 
 ---
 
 ## 🛠 Skills learned
 
-HTML, CSS
+HTML, CSS, Make responsive site.
 
 ---
 
