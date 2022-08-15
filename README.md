@@ -24,7 +24,7 @@
 
 ![Screenshot](./images/project8-image.png)
 
-![mobile version screenshot](./images/project-8-mobilevs.png)
+![mobile version screenshot](<./images/project-8-mobilevs%20(1).png>)
 
 ---
 
