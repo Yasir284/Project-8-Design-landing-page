@@ -4,13 +4,21 @@
 
 # Project-8: Design Landing page
 
-- This project is a Design landing page.This website is designed using pure HTML and CSS.
+- This project is a Design landing page.This website is designed using pure HTML and CSS.I have made this site fully responsive.
 
 - It took me 3-4hr to make this project.Please find link og project below:
 
 [![badge](https://img.shields.io/badge/LINK%20OF-PROJECT--8-red)](https://project8-27722.netlify.app/)
 
 ---
+
+## Breakpoints
+
+- I have takent **Three** breakpoints to make this site responsive.
+
+  - First at **1024px** for small screen laptops.
+  - Second at **768px** for tablets.
+  - Third at **480px** for mobiles.
 
 ## Screenshot
 

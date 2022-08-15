@@ -21,6 +21,11 @@ nav {
     height: 10vh;
 }
 
+.nav-icon {
+    width: 35px;
+    display: none;
+}
+
 .part1 {
     width: 100px;
 }
@@ -36,6 +41,7 @@ nav {
 .nav-item {
     color: #3e4794;
     font-size: 0.9rem;
+    transition: all 300ms ease-in-out;
 }
 
 .nav-item:hover {
@@ -50,13 +56,14 @@ nav {
     border-radius: 20px;
     border: none;
     background: linear-gradient(90deg, #9869f2, #ee88db);
-    padding: 2px 15px;
+    padding: 0.3em 1.2em;
     margin-right: 12%;
     transition: all 300ms ease-in-out;
 }
 
 .signin-btn:hover {
-    padding: 4px 20px;
+    color: #ee88db;
+    background: #fff;
     cursor: pointer;
 }
 
@@ -91,19 +98,22 @@ nav {
 .learn-more-btn {
     color: #fff;
     font-family: Roboto;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: bolder;
     border-radius: 25px;
     border: none;
     background: linear-gradient(90deg, #9869f2, #ee88db);
-    padding: 10px 25px;
+    padding: 0.5em 1.2em;
     margin-top: 5%;
     transition: all 300ms ease-in-out;
     position: absolute;
 }
 
 .learn-more-btn:hover {
-    padding: 15px 30px;
+    border: 2px solid #ee88db;
+    color: #ee88db;
+    background: #fff;
+    cursor: pointer;
     cursor: pointer;
 }
 
@@ -128,37 +138,20 @@ nav {
 /* BREAKPOINT FOR SMALL-SCREEN LAPTOPS */
 
 @media (max-width:1024px) {
-    nav {
-        gap: 1rem;
+    html {
+        font-size: 12px;
     }
 
-    .part1 {
-        width: 70px;
-    }
-
-    .part2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 2rem;
-    }
-
-    .nav-item {
-        font-size: 0.6rem;
-    }
-
-    .signin-btn {
-        font-size: 0.6rem;
+    body {
+        background-size: 55%;
     }
 }
 
 
 /* BREAKPOINT FOR TABLETS */
 @media (max-width:768px) {
-
-    /* NAVBAR */
-    nav {
-        gap: 1rem;
+    html {
+        font-size: 9px;
     }
 
     .part1 {
@@ -166,20 +159,79 @@ nav {
     }
 
     .part2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         gap: 1rem;
     }
 
-    .nav-item {
-        font-size: 0.6rem;
+    .vector-img {
+        width: 10%;
+    }
+
+    .vector-dot {
+        width: 2%;
+    }
+
+}
+
+
+/* BREAKPOINT FOR MOBILE */
+@media (max-width:480px) {
+    body {
+        /* background: rgba(181, 183, 202, 0.671); */
+        background: url(/images/backcover.svg)no-repeat;
+        background-size: 60%;
+        background-position: right top;
+    }
+
+    nav {
+        justify-content: flex-start;
+    }
+
+    .nav-icon {
+        display: block;
+        margin-left: auto;
+        width: 25px;
+        filter: invert(28%) sepia(13%) saturate(3672%) hue-rotate(201deg) brightness(95%) contrast(89%);
+    }
+
+    .part1 {
+        filter: invert(28%) sepia(13%) saturate(3672%) hue-rotate(201deg) brightness(95%) contrast(89%);
+    }
+
+    .part2 {
+        display: none;
     }
 
     .signin-btn {
-        font-size: 0.6rem;
+        display: none;
     }
-}
 
-/* BREAKPOINT FOR MOBILE */
-@media (max-width:480px) {}
+
+    .left-section {
+        text-align: center;
+        margin: 6% auto;
+    }
+
+    .left-section h4 {
+        color: #ee88db;
+    }
+
+    .learn-more-btn {
+        position: static;
+        margin-top: 6%;
+    }
+
+    .dev_img {
+        display: none;
+    }
+
+    .vector-img {
+        position: absolute;
+        left: 68%;
+    }
+
+    .vector-dot {
+        position: absolute;
+        left: 73%;
+    }
+
+}
