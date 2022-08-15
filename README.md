@@ -2,13 +2,13 @@
 ![badge](https://img.shields.io/badge/TIME%20TAKEN-3--4hrs-red)
 [![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://project8-27722.netlify.app/)
 
-# Project-8: Design Landing page
+# Design Landing page
 
 - This project is a Design landing page.This website is designed using pure HTML and CSS.I have made this site fully responsive.
 
 - It took me 3-4hr to make this project.Please find link og project below:
 
-[![badge](https://img.shields.io/badge/LINK%20OF-PROJECT--8-red)](https://project8-27722.netlify.app/)
+[![badge](https://img.shields.io/badge/LINK%20OF-PROJECT-red)](https://project8-27722.netlify.app/)
 
 ---
 
